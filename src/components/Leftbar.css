@@ -1,0 +1,55 @@
+
+*{
+    color: azure;
+    
+   
+}
+.main-box{
+
+position: relative;    
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+border: 1px solid green;
+text-align: center;
+overflow: scroll;
+
+}
+
+.content-box{
+
+    display: flex;
+    flex-flow: row;
+    gap:3.5%;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.content-box > .b {
+    border:3px solid yellow;
+    border-radius: 3px;
+   width: calc((100% - 7%) / 3);
+  
+
+
+}
+
+
+.r-style{
+    flex-basis: 85%;
+  }
+
+.bc{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+
+button{
+    padding: 3px 3px;
+    background-color: black;
+}
+

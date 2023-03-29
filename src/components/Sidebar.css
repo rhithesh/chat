@@ -1,0 +1,47 @@
+*{
+    font-family: 'Martel Sans', sans-serif;
+    line-height: 1;
+}
+.main-box1{
+
+    display: flex;
+    flex-flow: column;
+    
+    height: 100vh;
+    background-color:#acacbe;
+}
+
+.new{
+    flex-basis: 7%;
+}
+
+.view{
+    flex-basis: 57%;
+    overflow-y: scroll;
+}
+.options{
+    flex-basis: 35%;
+    
+}
+.left-p{
+     flex-basis: 15%;
+}
+
+.b > p{
+
+    text-align: center;
+    margin: 0;
+    
+    padding: 12px 12px;
+
+        border: 2px solid yellow;
+        border-radius: 3px;
+    }
+
+.options>p{
+    margin: 4px 0px 0px !important;
+}
+
+.new>p{
+    margin-bottom:8px ;
+}
